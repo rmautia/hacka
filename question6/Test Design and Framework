@@ -1,0 +1,22 @@
+Key Framework Components
+
+Feature files
+    This files contain the cucumber features files written in gherkin language which are then
+    implemented in the step definition files
+Step Definitions
+    Contains the python and selenium logic that enables the automation framework to perform the test functions
+    this logic includes interactions with the web elements and also data handling including responses
+    and storage of variables
+POM files
+    Page object model files
+    allows for organization of webelements according to individual pages in which they appear.
+    they are implemented using pagefactory and they help with making the code easier to read and maintain
+Environments Files
+     This contain the different environments that tester can use.
+     for example dev, stage or prod
+Requirements file
+    this file contains the dependencies that are required to run the framework.
+Test Data management
+    this can be handled in different ways such as creating .txt files and reading from them.
+    Also user can use configurations file/ environment files to store test data.
+    If a tool exists, it is applied directly.

@@ -1,0 +1,18 @@
+1. 30 days users
+SELECT *
+FROM Users
+WHERE CreatedDate >= DATE_SUB(CURDATE(), INTERVAL 30 DAY);
+
+2. Unique Domain
+SELECT COUNT(*) AS uniqueDomain
+FROM Users
+WHERE email LIKE '%@example.com';
+
+
+
+3. update the number email of a user with a specific UserId
+    #Asssuming new email is newemail@gmail.com && UserId is 123
+
+UPDATE Users
+SET email = 'newemail@gmail.com'
+WHERE UserId = 123;

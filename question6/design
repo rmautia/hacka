@@ -1,0 +1,8 @@
+project_name
+├── features
+│   └── google_search.feature
+├── step_definitions
+│   └── google_search_steps.py
+├── conftest.py
+└── requirements.txt
+

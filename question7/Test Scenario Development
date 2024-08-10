@@ -1,0 +1,33 @@
+
+Quality Engineers need to create Test Cases for below scenarios and Automate them.
+1. Create Account and Signout
+#User is able to access sign up option
+#ser creates account successfully
+#user receives email or success message pop-up
+Verify successful sign out from the application
+
+2. Login
+# Verify login with incorrect credentials
+# Verify successful login with correct credentials
+# Verify that user is able to input data to the form fields
+# Verify information popup when user tries to login without entering credentials
+# Verify that sign up option and forget password option are available
+
+3. Add two item into cart
+# user can add items to cart
+# user can remove items from cart
+# item selected is the item added
+# total sum of prices increases and decreases accordingly
+
+4. Complete checkout process with any of the available payment methods
+# Proceed to checkout successfully
+# Test all payment methods available to user can be accessed/ used
+# Verify that user is able to select payment method and checkout successfully
+# Confirm success message upon user successfully placing order
+
+
+5.Verify the order history
+# Confirm that user order is available in order history
+# Verify status of order in history.
+
+
